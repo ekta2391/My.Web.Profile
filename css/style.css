@@ -135,6 +135,7 @@ hr {
 /* Navigation */
 #nav {
 	z-index: 9999;
+	font-family: monospace;
 }
 #nav.affix {
 	position: fixed;
@@ -487,6 +488,7 @@ ol.type li a:hover {
     align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	font-family: monospace;
 }
 .timeline {
 	position: relative;
