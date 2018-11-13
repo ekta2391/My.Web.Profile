@@ -25,6 +25,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,12 +40,14 @@
 <header id="header">
   <div class="intro">
     <div class="container">
-      <div class="row">
-        <div class="intro-text">
-          <h1>Hello, I'm <span class="name">Ekta Chavan</span></h1>
-          <p>Web Developer. Visionary. Artist.</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
-      </div>
+      <!-- particles.js container --> 
+      <div id="particles-js">
+              <div class="intro-text">
+                <img src="img/myPro.JPG" />
+                <h1>Hello, I'm <span class="name">Ekta Chavan</span></h1>
+                <p>Web Developer. Visionary. Artist.</p>
+                <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+      </div> 
     </div>
   </div>
 </header>
@@ -63,7 +66,7 @@
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Projects</a> </li>
+          <!-- <li> <a class="page-scroll" href="#portfolio">Projects</a> </li> -->
           <li> <a class="page-scroll" href="#resume">Resume</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
@@ -79,13 +82,11 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-12 text-center"><img src="img/about1.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
-          <p>I am a fervent Web Developer, living in the sweet spot where clean code and UX meet. I am a graduate student at Northeastern University, Boston, getting my Masters in Information Systems.
-		   What years of Web Development experience has taught me is to keep my code elegant and the user experience rich.</p>
-		   <p> Fun Fact: I <strike>love</strike> live to Travel, am a self proclaimed artist and I hold on to my collection of Books like my life depends on it!
-          <p class="text-center"><a class="btn btn-primary" href="img/Ekta_Chavan_Web_Resume.pdf" download><i class="fa fa-download"></i> Download My Resume</a></p>
+          <p>"I am a Web Developer on a quest to build a world with the cleanest code and breath taking designs. Strong developemnt fundamentals and an eye for seamless user experience are what enable me to create elegant modern day web applications. That being said - Let's start building, shall we?"</p>
+		   <p> <i><small>Fun Fact: I <strike>love</strike> live to Travel, am a self proclaimed artist and I hold on to my collection of Books like my life depends on it!</small></i></p>
+          <p class="text-center"><a class="btn btn-primary" href="img/Ekta-Chavan-Resume.pdf" download><i class="fa fa-download"></i> Download My Resume</a></p>
         </div>
       </div>
     </div>
@@ -121,7 +122,7 @@
   </div>
 </div>
 <!-- Portfolio Section -->
-<div id="portfolio">
+<!-- <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
       <h2>Projects</h2>
@@ -217,7 +218,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Achievements Section -->
 <!-- <div id="achievements" class="text-center">
   <div class="container">
@@ -259,7 +260,27 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-          <li>
+            <li>
+                <div class="timeline-image">
+                  <h4>July 2017 <br>
+                    - <br>
+                    Current</h4>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Happie, Boston, MA</h4>
+                    <h4 class="subheading">Frontend Engineer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Owned the design, development and maintenance of ongoing metrics and reports within the product to generate 30% more revenue from client subscriptions.
+                        Implemented key UX-rich features like tagging, notification and filtering of activities on a platform-wide scale for our product.
+                        Coordinated with a team member to build and launch the current Sourcing Dashboard to track real-time changes and user data.
+                        Dedicatedly resolved key cascading/timing performance issues in multiple areas within the platform using latest WPO practices.
+                          Technologies used: ES6/ES8, Webpack, Vue.js, React.js, SCSS, NPM, REST API, Django, Jest.js, HTML5, CSS3, D3.js, Chart.js</p>
+                  </div>
+                </div>
+              </li>
+          <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>May 2016 <br>
                 - <br>
@@ -271,11 +292,16 @@
                 <h4 class="subheading">Web Developer Intern</h4>
               </div>
               <div class="timeline-body">
-                <p>Built an enterprise level single page visualization dashboard for the company’s operations and support team using React.js and Node.js. Completely automated their end-to-end customer calculations using Flux Architecture which produces at-the-moment drilled down D3 reports</p>
+                <p>Solved  backend calculation problems on a flagship product ,achieved runtime SQL optimization at a rate of 22.5%.
+                  Exercised innovative product building ideas and techniques at weekly lunch-and-learns held by Sales,Marketing and Tech.
+                  Built a single page visualization dashboard,currently used by multiple teams for workflow-control of businesses processes.
+                  Generated real time and interactive D3.js status reports at every task layer,thus aiding effective and quick issue resolution.
+                  Developed ‘React’-ive components to completely automate the bug-fixing system at any given processing layer.
+                  Technologies used: React.js, Redux, JSX, REST API, Oracle DB</p>
               </div>
             </div>
           </li>
-          <li class="timeline-inverted">
+          <li class="timeline-panel">
             <div class="timeline-image">
               <h4>March 2014 <br>
                 - <br>

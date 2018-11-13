@@ -1,3 +1,57 @@
+/* ---- reset ---- */ 
+
+canvas{ 
+	display: block; 
+	vertical-align: bottom; 
+} 
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	position:absolute; 
+	width: 100%; 
+	height: 100%; 
+	background-color: #141f28; 
+	background-image: url(""); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: 50% 50%; 
+} 
+/* ---- stats.js ---- */ 
+.count-particles{ 
+	background: #000022; 
+	position: absolute; 
+	top: 48px; 
+	left: 0; 
+	width: 80px; 
+	color: #13E8E9; 
+	font-size: .8em; 
+	text-align: left; 
+	text-indent: 4px; 
+	line-height: 14px; 
+	padding-bottom: 2px; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: bold; 
+} 
+.js-count-particles{ 
+	font-size: 1.1em; 
+} 
+#stats, .count-particles{ 
+	-webkit-user-select: none; 
+	margin-top: 5px; 
+	margin-left: 5px; 
+} 
+#stats{ 
+	border-radius: 3px 3px 0 0; 
+	overflow: hidden; 
+} 
+.count-particles{ 
+	border-radius: 0 0 3px 3px; 
+}
+
+
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -191,10 +245,16 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #313233;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #dee0e2 !important;
+	font-family: monospace !important;
 }
 #about .about-text {
-	margin-left: 10px;
+	font-size: 28px;
 }
 #about img {
 	border-radius: 50%;
@@ -205,14 +265,24 @@ hr {
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+}#about h2 { 
+	color: #fff;
 }
+
 /* Skills Section */
 #skills {
+	font-family: monospace;
+	display: flex;
+    align-items: center;
+	justify-content: center;
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #9ceaed;
+	color: #000000;
+	height: 100%;
+
 }
 #skills h2 {
-	color: #fff;
+	color: #000000;
 }
 #skills hr {
 	background: rgba(255,255,255,0.3);
@@ -223,8 +293,8 @@ hr {
 	padding: 0px;
 }
 #skills .skill h4 {
-	font-weight: 600;
-	color: #fff;
+	font-weight: 800;
+	color: #000000;
 }
 .chart {
 	position: relative;
@@ -413,6 +483,10 @@ ol.type li a:hover {
 #resume {
 	padding: 100px 0;
 	background: #f6f6f6;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .timeline {
 	position: relative;
@@ -518,6 +592,9 @@ ol.type li a:hover {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
 	background: #7bc3d1;
+	display: flex;
+    align-items: center;
+	justify-content: center;
 }
 #contact h2 {
 	color: #fff;
@@ -626,6 +703,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: #121d1f;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
+	display: flex;
+    align-items: center;
+	justify-content: center;
 }
 #footer p {
 	font-size: 13px;
@@ -655,9 +735,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .intro-text {
 	max-width: 75%;
+	position: absolute;
+	text-align: center;
+	font-family: monospace;
+}
+.intro-text img {
+	width: 150px;
+	border-radius: 150px;
 }
 .intro .intro-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: monospace;
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
@@ -665,10 +752,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 section {
 	padding: 120px 0;
 }
-header .intro-text {
+/* header .intro-text {
 	padding-top: 300px;
 	padding-bottom: 200px;
-}
+} */
 .timeline:before {
 	left: 50%;
 }

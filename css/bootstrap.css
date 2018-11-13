@@ -121,6 +121,7 @@ textarea {
 button {
   overflow: visible;
 }
+
 button,
 select {
   text-transform: none;
@@ -1573,12 +1574,12 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
+/* .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 @media (min-width: 768px) {
   .container {
     width: 750px;
