@@ -150,6 +150,7 @@ hr {
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
+	font-size: 20px;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -195,25 +196,28 @@ hr {
 	color: #fff;
 	background-color: transparent;
 	border-color: #fff;
-	padding: 10px 20px;
+	padding: 17px 20px;
 	margin: 0;
-	font-size: 16px;
-	border-radius: 0;
-}
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	font-weight: bold;
+	font-size: 17px;
+	border-radius: 70px;
+	height: 60px;
+	box-shadow: 6px 6px 10px 0px #0e0e0f;
 }
 .btn-primary {
-	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	color: lightgrey;
 	background-color: #121d1f;
-	padding: 10px 20px;
+	padding: 15px 20px;
 	border-color: #121d1f;
-	border-radius: 0;
+	border-radius: 70px;
+	height: 60px;
+	box-shadow: 6px 6px 10px 0px gray;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
-	color: #fff;
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
+	color: #121d1f;
+	font-weight: 700;
 	background-color: #7bc3d1;
 	border-color: #7bc3d1;
 }
@@ -246,12 +250,12 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #313233;
+	background: lightgray;
 	display: flex;
     align-items: center;
 	justify-content: center;
 	height: 100%;
-	color: #dee0e2 !important;
+	color: #121d1f !important;
 	font-family: monospace !important;
 }
 #about .about-text {
@@ -267,7 +271,7 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }#about h2 { 
-	color: #fff;
+	color: #121d1f;
 }
 
 /* Skills Section */
@@ -588,6 +592,7 @@ ol.type li a:hover {
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
+	font-size: 16px;
 }
 /* Contact Section */
 #contact {

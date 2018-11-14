@@ -1956,6 +1956,10 @@ pre code {
   .col-md-4 {
     width: 33.33333333%;
   }
+  .col-md-4 a:hover {
+    color: #141f28;
+    font-weight: 600;
+  }
   .col-md-3 {
     width: 25%;
   }
@@ -4081,6 +4085,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+  font-size: 16px;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -4130,7 +4135,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
-  margin-left: -15px;
+  margin-left: 25px !important;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
