@@ -144,7 +144,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #121d1f;
+	background-color: #141f28;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -281,7 +281,7 @@ hr {
     align-items: center;
 	justify-content: center;
 	padding: 100px 0;
-	background: #9ceaed;
+	background: #7bc3d1;
 	color: #000000;
 	height: 100%;
 
@@ -681,7 +681,7 @@ color: #2c3e50;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
-	color: #121d1f;
+	color: #141f28;
 }
 #contact .btn {
 	background-color: transparent;
@@ -692,8 +692,8 @@ color: #2c3e50;
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
-	background-color: #121d1f;
-	border: 1px solid #121d1f;
+	background-color: #141f28;
+	border: 1px solid #141f28;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -707,7 +707,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #121d1f;
+	background: #141f28;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 	display: flex;
