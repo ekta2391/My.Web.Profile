@@ -205,7 +205,7 @@ var EasyPieChart = function(el, opts) {
 		scaleLength: 0,
 		lineCap: 'square',
 		lineWidth: 7,
-		size: 152,
+		size: 125,
 		rotate: 0,
 		animate: 1000,
 		easing: function (x, t, b, c, d) { // more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
@@ -225,6 +225,13 @@ var EasyPieChart = function(el, opts) {
 			return;
 		}
 	};
+
+	if(window.innerWidth < 414 && window.innerWidth < 376) {
+		defaultOptions.size = 110
+	}
+	if(window.innerWidth < 376) {
+		defaultOptions.size = 70
+	}
 
 	// detect present renderer
 	if (typeof(CanvasRenderer) !== 'undefined') {
