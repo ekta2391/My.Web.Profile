@@ -751,7 +751,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		padding: 20px;
 	}
 	#about .about-text {
-		font-size: 16px;
+		font-size: 14px;
 		padding: 20px;
 	}
 	h2 {
@@ -812,6 +812,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.section-title.center {
 		padding: 16px;
 		font-size: 20px;
+		padding-bottom: 0px;
 	}
 	#particle-js {
 		font-family: monospace;
